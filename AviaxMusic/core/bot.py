@@ -1,3 +1,5 @@
+import pyrogram
+pyrogram.utils.MIN_CHANNEL_ID = -1002162904748
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
 
